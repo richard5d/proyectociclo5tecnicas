@@ -32,4 +32,8 @@ public class ArregloUsuarios {
 	public void eliminarUsuario(Usuario usuario) {
 		ArregloUsuarios.usuarios.remove(usuario);
 	}
+	
+	public void eliminarUsuario(int indice) {
+		ArregloUsuarios.usuarios.remove(indice);
+	}
 }
