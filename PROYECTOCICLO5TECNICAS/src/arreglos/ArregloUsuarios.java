@@ -28,4 +28,8 @@ public class ArregloUsuarios {
 		}
 		return null;
 	}
+	
+	public void eliminarUsuario(Usuario usuario) {
+		ArregloUsuarios.usuarios.remove(usuario);
+	}
 }
